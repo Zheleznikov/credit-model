@@ -1,14 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T16:37:21.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="euYjaTjxrgJBSnz5bw_n" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T20:23:14.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="RxnQkzEAyWSdQYEwsqKm" version="17.4.6" type="github">
   <diagram id="TWxFlrFurg5EkHa7vnhl" name="Page-1">
-    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="R9wKPlAbwoIMhmEVUMdv-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="40" width="500" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="R9wKPlAbwoIMhmEVUMdv-1" value="&lt;h1&gt;Сервис для расчета выдачи кредита&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="30" width="500" height="60" as="geometry" />
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Сервис для расчета выдачи кредита&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="480" height="50" as="geometry" />
         </mxCell>
         <mxCell id="R9wKPlAbwoIMhmEVUMdv-4" value="&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;определяет возможность выдачи&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
@@ -17,25 +14,97 @@
           <mxGeometry x="400" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R9wKPlAbwoIMhmEVUMdv-7" value="&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;рассчитывает годовой платеж&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R9wKPlAbwoIMhmEVUMdv-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.836;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R9wKPlAbwoIMhmEVUMdv-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="450" as="sourcePoint" />
-            <mxPoint x="448" y="120" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Входные данные&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="1300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R9wKPlAbwoIMhmEVUMdv-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="263" y="90" as="sourcePoint" />
-            <mxPoint x="263" y="120" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-15" value="&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;&lt;b&gt;Возраст&lt;/b&gt;&lt;br&gt;(от 0 до бесконечности)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R9wKPlAbwoIMhmEVUMdv-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.464;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="R9wKPlAbwoIMhmEVUMdv-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="89.99999999999999" as="sourcePoint" />
-            <mxPoint x="91.03999999999996" y="185.96" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-16" value="&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;&lt;b&gt;Пол&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;мужской&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;женский&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-17" value="&lt;font face=&quot;helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;&lt;b&gt;Источник дохода&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;пассивный доход&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;наемный работник&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;собственный бизнес&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;безработный&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-18" value="&lt;font face=&quot;helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;&lt;b&gt;Доход за последний год&lt;/b&gt; (млн)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-19" value="&lt;font face=&quot;helvetica, sans-serif&quot;&gt;&lt;b style=&quot;font-size: 14.6667px&quot;&gt;Кредитный рейтинг&lt;/b&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;:&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font face=&quot;helvetica, sans-serif&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;-1&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;helvetica, sans-serif&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;-2&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;helvetica, sans-serif&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;0&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;helvetica, sans-serif&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;1&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;helvetica, sans-serif&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;2&lt;/font&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-20" value="&lt;font face=&quot;helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;&lt;b&gt;Запрошенная сумма&lt;/b&gt;&lt;br&gt;( от 0.1 до 10 млн)&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="830" y="320" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-21" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Срок погашения&lt;/b&gt;&lt;br&gt;(от 1 до 20 лет)&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="990" y="320" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-22" value="&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;&lt;b&gt;Цель&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;ипотека&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt&quot;&gt;развитие бизнеса&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt&quot;&gt;автокредит&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;потребительский&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="320" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-24" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;Годовой платеж = YP (year payment)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Сумма кредита = LA (loan amount)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Срок погашения = RT(&amp;nbsp;repayment time)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;базовая ставка = BR (base rate)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;модификаторы = M&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;`YP = (LA * (1 + (RT*(BR + M))))/(RT)`&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#e83e8c&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#DAE8FC;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1360" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-27" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Сумма кредита = 0.5 млн&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Срок погашения = 3 года&lt;/span&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;базовая ставка = 10 %&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;модификаторы = 1 %&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;`YP = (0.5 * (1 + (3*(0.1 + 0.11))))/(3)`&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;`YP = 0,22`&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1360" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-34" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;Кредит НЕ выдается в случаях, если:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;возраст превышает пенсионный возраст на момент возврата&amp;nbsp;&lt;/span&gt;&lt;span&gt;кредита&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;результат деления запрошенной суммы на срок погашения в годах более трети годового дохода&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;кредитный рейтинг равен -2&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;в источнике дохода указано &quot;безработный&quot;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;годовой платёж (включая проценты) больше половины доход&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="10" y="690" width="400" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-39" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Условия выдачи и расчет процентной ставки на основе входных данных&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="520" width="1300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-41" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Расчет годового платежа&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1160" width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-42" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Выходные данные&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1160" width="680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-44" value="&lt;p style=&quot;background: white&quot;&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 18px ; font-family: &amp;quot;helvetica&amp;quot; , sans-serif&quot;&gt;Кредит выдаётся/не выдаётся&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#000000;fillColor=#DAE8FC;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="850" y="1240" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-48" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="760" y="600" width="740" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-36" value="&lt;div&gt;&lt;span&gt;Параметр &quot;&lt;/span&gt;&lt;b&gt;Цель&lt;/b&gt;&lt;span&gt;&quot;:&lt;/span&gt;&lt;/div&gt;&lt;p style=&quot;margin: 0in 0in 0.0001pt&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;ипотека (-2%)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: black ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;развития бизнеса (-0.5%)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: black ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;потребительский кредит&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: black ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;(+1.5%)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;helvetica, sans-serif&quot;&gt;Параметр &lt;b&gt;&quot;Кредитный рейтинг&quot;:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;кредитный рейтинг = ( -1)&amp;nbsp; &amp;nbsp;+1.5%&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;кредитный рейтинг = 0&amp;nbsp; &amp;nbsp; 0%&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;кредитный рейтинг = 1&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;-0.25%&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;кредитный рейтинг = 2&amp;nbsp; &amp;nbsp; -0.75%&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="R9wKPlAbwoIMhmEVUMdv-48">
+          <mxGeometry y="155" width="350" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-45" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;Параметр &lt;/span&gt;&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;&quot;Источник дохода&quot;&lt;/b&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;:&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;ul style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 14.6667px&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;пассивный доход +&lt;/font&gt;0.5%&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 14.6667px&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;наемный работник -&lt;/font&gt;0.25%&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; font-size: 14.6667px&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;собственный бизнес +&lt;/font&gt;0.25%&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;helvetica, sans-serif&quot;&gt;Параметр &lt;b&gt;&quot;Запрошенная сумма&quot;&lt;/b&gt;:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black ; background-color: rgb(255 , 255 , 255)&quot;&gt;Модификатор в зависимости от запрошенной суммы рассчитывается по формуле&lt;b&gt; [-log(sum)].&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;Пример&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: black ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;для 0.1 млн (+1%)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;для 1 млн&amp;nbsp; 0%,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;для 10 млн&amp;nbsp; (-1%)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="R9wKPlAbwoIMhmEVUMdv-48">
+          <mxGeometry x="370" y="155" width="370" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-46" value="&lt;b style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Условия расчета модификатора процентной ставки:&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="R9wKPlAbwoIMhmEVUMdv-48">
+          <mxGeometry width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-47" value="&lt;span style=&quot;text-align: left&quot;&gt;Базовая процентная ставка -&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;text-align: left&quot;&gt;10%&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="R9wKPlAbwoIMhmEVUMdv-48">
+          <mxGeometry y="70" width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-49" value="&lt;b style=&quot;color: rgb(51 , 51 , 51) ; text-align: left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Условия выдачи кредита&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="10" y="610" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-52" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="435" y="610" width="300" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-40" value="" style="group" vertex="1" connectable="0" parent="R9wKPlAbwoIMhmEVUMdv-52">
+          <mxGeometry y="100" width="300" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-35" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;Условия по сумме кредита&lt;/b&gt;&lt;/p&gt;Параметр &quot;&lt;b&gt;Источник дохода&lt;/b&gt;&quot;:&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;пассивный доход -&amp;nbsp; до 1 млн&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: black ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;наёмный работник - до 5 млн&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;собственное дело - до 10 млн&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;Параметр &quot;&lt;b&gt;Кредитный рейтинг&lt;/b&gt;&quot;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;кредитный рейтинг =&amp;nbsp; (-1) - до 1 млн&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;кредитный рейтинг = 0 - до 5 млн&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; color: black&quot;&gt;кредитный рейтинг = (1 или 2) - до 10 млн&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="R9wKPlAbwoIMhmEVUMdv-40">
+          <mxGeometry width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-37" value="&lt;p&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;Если работают несколько условий по сумме кредита - выбирается&lt;br&gt;наименьшая&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="R9wKPlAbwoIMhmEVUMdv-40">
+          <mxGeometry y="310" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-51" value="Условия по сумме кредита" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="R9wKPlAbwoIMhmEVUMdv-52">
+          <mxGeometry width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-54" value="&lt;p style=&quot;background: white&quot;&gt;&lt;/p&gt;&lt;b style=&quot;font-size: 18px ; font-family: &amp;quot;helvetica&amp;quot; , sans-serif&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Годовой платеж по кредиту&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#000000;fillColor=#DAE8FC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1240" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-55" value="&lt;p style=&quot;background: white&quot;&gt;&lt;/p&gt;&lt;div style=&quot;font-weight: 400 ; text-align: left&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Формула для расчета годового платежа&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#000000;fillColor=#DAE8FC;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="1270" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-58" value="&lt;p style=&quot;background: white&quot;&gt;&lt;/p&gt;&lt;div style=&quot;font-weight: 400 ; text-align: left&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Пример&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fillColor=#e1d5e7;align=center;fontStyle=1;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1270" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
