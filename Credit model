@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T16:26:01.214Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.6" etag="qqxIiylJafWU3r84oAs_" type="github"><diagram id="TWxFlrFurg5EkHa7vnhl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-25T16:37:21.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="euYjaTjxrgJBSnz5bw_n" version="17.4.6" type="github">
+  <diagram id="TWxFlrFurg5EkHa7vnhl" name="Page-1">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-1" value="&lt;h1&gt;Сервис для расчета выдачи кредита&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-4" value="&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;определяет возможность выдачи&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-6" value="&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;рассчитывает процент ставки по кредиту&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-7" value="&lt;span style=&quot;font-size: 11pt ; line-height: 107% ; font-family: &amp;#34;helvetica&amp;#34; , sans-serif&quot;&gt;рассчитывает годовой платеж&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.836;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R9wKPlAbwoIMhmEVUMdv-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="448" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="263" y="90" as="sourcePoint" />
+            <mxPoint x="263" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9wKPlAbwoIMhmEVUMdv-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.464;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="R9wKPlAbwoIMhmEVUMdv-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="89.99999999999999" as="sourcePoint" />
+            <mxPoint x="91.03999999999996" y="185.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
