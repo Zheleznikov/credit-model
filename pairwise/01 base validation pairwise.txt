@@ -1,0 +1,44 @@
+age	sex	incomingSource	incomeForLastYear	creditRating	requestedAmount	loanRepaymentTime	goal
+
+-1	female	beautiful eyes	1	3	5	20	party
+18	unknown	own business	0	0	5	0	personal
+0	unknown	beautiful eyes	-0.1	-1	4.5	1	car loan
+17	female	own business	1	-3	-0.5	1	personal
+30	female	beautiful eyes	0	0	0	1	party
+-1	unknown	own business	0	-3	10.1	20	car loan
+
+18	female	own business	-0.1	-1	-0.5	0	party
+17	unknown	beautiful eyes	0	3	-0.5	21	car loan
+30	female	beautiful eyes	-0.1	3	10.1	0	personal
+30	female	own business	1	-3	4.5	0	car loan
+0	unknown	own business	1	-1	0	0	personal
+17	unknown	beautiful eyes	-0.1	-3	32766	0	party
+-1	female	beautiful eyes	-0.1	0	-0.5	20	personal
+18	unknown	beautiful eyes	1	-1	10.1	1	party
+18	female	own business	-0.1	3	0	-1	car loan
+30	unknown	beautiful eyes	0	-1	5	-1	car loan
+0	female	own business	1	0	32766	19	car loan
+17	female	own business	1	0	10.1	-1	party
+0	unknown	own business	0	3	32766	1	personal
+17	female	own business	-0.1	-1	0	20	party
+0	unknown	beautiful eyes	-0.1	-3	10.1	19	party
+18	female	beautiful eyes	0	3	4.5	20	party
+30	female	own business	0	-1	4.5	19	personal
+0	female	own business	-0.1	-3	5	21	party
+-1	female	beautiful eyes	1	-1	0	21	personal
+17	unknown	beautiful eyes	-0.1	-3	5	1	party
+-1	female	own business	-0.1	-1	32766	1	party
+18	unknown	own business	1	-3	0	19	personal
+-1	unknown	own business	0	3	4.5	19	car loan
+30	unknown	own business	-0.1	3	-0.5	19	car loan
+30	unknown	own business	1	-3	32766	20	party
+0	female	own business	-0.1	-3	-0.5	-1	personal
+18	unknown	own business	-0.1	0	4.5	21	party
+30	unknown	beautiful eyes	1	0	10.1	21	personal
+18	female	own business	1	-3	32766	-1	party
+-1	unknown	beautiful eyes	0	0	32766	0	personal
+17	unknown	own business	-0.1	0	5	19	party
+-1	female	beautiful eyes	-0.1	-3	4.5	-1	car loan
+-1	unknown	beautiful eyes	0	-1	32766	21	personal
+17	female	beautiful eyes	0	-1	4.5	1	car loan
+0	female	beautiful eyes	0	3	32766	20	car loan
