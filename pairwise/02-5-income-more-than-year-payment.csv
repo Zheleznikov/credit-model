@@ -1,0 +1,41 @@
+incomingSource,incomeForLastYear,creditRating,requestedAmount,loanRepaymentTime,goal
+passive income,,0,10,10,mortgage
+employee,2.4,0,5,5,mortgage
+passive income,6,0,1,5,mortgage
+passive income,2.4,0,0.5,10,mortgage
+employee,6,0,0.1,10,mortgage
+employee,,0,0.5,17,mortgage
+passive income,2.4,0,0.1,17,mortgage
+passive income,6,0,0.5,5,mortgage
+employee,,0,1,10,mortgage
+employee,2.4,0,1.1,10,mortgage
+passive income,6,0,1.1,17,mortgage
+employee,,0,0.1,5,mortgage
+passive income,,0,5,1,mortgage
+employee,6,0,0.5,20,mortgage
+employee,6,0,5,10,mortgage
+passive income,,0,1.1,20,mortgage
+employee,2.4,0,3,20,mortgage
+passive income,6,0,3,10,mortgage
+passive income,,0,5,17,mortgage
+employee,,0,1,10,mortgage
+passive income,6,0,1,5,mortgage
+employee,2.4,0,10,20,mortgage
+employee,6,0,0.5,1,mortgage
+employee,2.4,0,1,17,mortgage
+employee,2.4,0,1.1,1,mortgage
+employee,,0,1,1,mortgage
+passive income,2.4,0,1,20,mortgage
+passive income,,0,0.1,20,mortgage
+passive income,,0,5,20,mortgage
+employee,,0,3,5,mortgage
+passive income,6,0,10,17,mortgage
+passive income,,0,0.1,1,mortgage
+employee,2.4,0,10,1,mortgage
+employee,2.4,0,1.1,5,mortgage
+passive income,,0,1,1,mortgage
+passive income,2.4,0,1,20,mortgage
+passive income,2.4,0,1,17,mortgage
+employee,,0,3,17,mortgage
+employee,6,0,10,5,mortgage
+passive income,,0,3,1,mortgage

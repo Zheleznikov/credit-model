@@ -6,6 +6,6 @@
 - [Тест-дизайн](https://github.com/Zheleznikov/credit-model/blob/main/02%20test-design.md)
 - [Тест-кейсы](https://github.com/Zheleznikov/credit-model/blob/main/03%20%20test-cases.md)
 
-
-
-       
+## Ccылки на сервис и автотесты
+- [Сервис](https://github.com/Zheleznikov/credit-service)
+- [Автотесты](https://github.com/Zheleznikov/test-credit-cervice)
