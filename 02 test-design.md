@@ -101,17 +101,17 @@
 
 - проверяется на уровне СТ. Автотесты
 - комбинация значений подбирается по технике парных значений. Отдельные значения подбираются по технике граничных значений
-- сгенерированные тестовые данные - в 
-
-
-    age:          10, 17, 18, 19, 59, 60, 61, 64, 65, 66
-    sex:          male, female, unknown
-    incomingSource: passive income, employee, own business, unemployed, pale blue eyes
-    incomeForLastYear: 0.1, 0.9, 5.2, 10.5, 12, 20, 100
-    creditRating:   -2,-1, 0, 1, 2, -3, 3
-    requestedAmount:  0.1, 0.5, 0.9, 1, 1.1, 3, 4.9, 5, 5.1, 7, 9.9, 10, 10.1, 14 
-    loanRepaymentTime:   1, 2, 10, 19, 20
-    goal:   party, car loan, personal loan, mortgage, business development
+- сгенерированные тестовые данные 
+  
+  
+        age:          10, 17, 18, 19, 59, 60, 61, 64, 65, 66
+        sex:          male, female, unknown
+        incomingSource: passive income, employee, own business, unemployed, pale blue eyes
+        incomeForLastYear: 0.1, 0.9, 5.2, 10.5, 12, 20, 100
+        creditRating:   -2,-1, 0, 1, 2, -3, 3
+        requestedAmount:  0.1, 0.5, 0.9, 1, 1.1, 3, 4.9, 5, 5.1, 7, 9.9, 10, 10.1, 14 
+        loanRepaymentTime:   1, 2, 10, 19, 20
+        goal:   party, car loan, personal loan, mortgage, business development
 
 ### [06] Выходные данные после рассмотрения заявки
   - проверяем в ходе проверок бизнес-логики в других тестах
